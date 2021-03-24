@@ -1,13 +1,11 @@
 import React from 'react'
-import { View, StyleSheet, Text, TouchableWithoutFeedback } from 'react-native'
-import params from '../../params'
+import { TouchableWithoutFeedback } from 'react-native'
 import Mine from '../Mine'
 import Flag from '../Flag'
 
 import { Field as OwnProps } from '../../util'
 
 import { OpenedField, ExplodedField, RegularField, Label } from './styles'
-import { StyledComponent } from 'styled-components'
 
 export const Field: React.FC<OwnProps> = ({
   mined,
